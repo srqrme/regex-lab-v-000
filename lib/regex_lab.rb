@@ -7,5 +7,5 @@ def words_starting_with_un_and_ending_with_ing(words_string)
 end
 
 def words_five_letters_long(words_string)
-  words_string.scan(/\w{5}/)
+  words_string.scan(/\b\w{5}\b/)
 end
