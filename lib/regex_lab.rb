@@ -15,5 +15,5 @@ def first_word_capitalized_and_ends_with_punctuation?(correct_punctuation)
 end
 
 def valid_phone_number?(number)
-  number.match(/\d{10} || (\d+).(\d+).(\d+) || \d{3} || \d{7} || \d{3}.\d{4}/) ? true : false
+  number.match(/\d{10} || (\d+).(\d+).(\d+) || \d{3}.\d{4}/) ? true : false
 end
