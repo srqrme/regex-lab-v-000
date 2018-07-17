@@ -13,3 +13,6 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(correct_punctuation)
   correct_punctuation.match(/^[A-Z].+[!?,\."',]$/) ? true : false
 end
+
+def valid_phone_number(number)
+end
